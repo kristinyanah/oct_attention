@@ -12,7 +12,7 @@
 #python train.py --model_name unet --dataset Duke
 #python train.py --model_name y_net_gen --dataset Duke
 source mask/bin/activate
-python train.py  --model_name y_net_layer_mp2 --num_iterations 250 --dataset Duke
+python train.py  --model_name y_net_layer_mp2 --dataset Duke
 #--model_name y_net_gen_advance2_gcn
 #python train.py --dataset UMN --n_classes 2 --image_dir /hpcstor6/scratch01/y/yanankristin.qi001/ynet/UMNData
  
